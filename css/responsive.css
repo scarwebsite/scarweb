@@ -415,7 +415,7 @@
 }
 @media only screen and (max-width: 460px) {
 	.skills-row h6 {
-	  text-align: center;
+	  text-align: left;
 	  margin-bottom: 30px;
 	  font-size: 14px;
 	}
