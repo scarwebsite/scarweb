@@ -223,7 +223,7 @@ video {
   flex: 1 0 auto;
 }
 .preloader {
-  
+
   background: -moz-linear-gradient(top, #212529 0%, #545b62 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(top, #212529 0%,#545b62 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, #212529 0%,#545b62 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -805,6 +805,8 @@ textarea.form-control {
   border-bottom: 1px solid rgba(250,250,250,0.1);
   margin-bottom: 50px;
   padding-bottom: 50px;
+  align-items: center;
+  text-align: center;
 }
 .last-skill {
   border-bottom: none;
@@ -826,7 +828,7 @@ textarea.form-control {
   z-index: 999;
 }
 .skills-row h6 {
-  font-size: 15px;
+  font-size: 16px;
   text-transform: initial;
   font-weight: 700;
   color: #fff;
