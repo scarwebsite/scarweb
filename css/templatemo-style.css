@@ -826,8 +826,8 @@ textarea.form-control {
   z-index: 999;
 }
 .skills-row h6 {
-  font-size: 16px;
-  text-transform: capitalize;
+  font-size: 12px;
+  text-transform: initial;
   font-weight: 700;
   color: #fff;
   text-align: center;
