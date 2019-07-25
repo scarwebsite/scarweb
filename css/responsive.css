@@ -193,6 +193,77 @@
 		padding: 42px 45px;
 	}
 }
+
+@media only screen and (max-width: 850px) {
+	.welcome-box {
+		padding: 150px 0px;
+	}
+	.navbar-nav li a {
+		font-size:13px;
+
+	}
+	.navbar-nav li {
+		margin-left:25px;
+	}
+	.footer-right {
+		font-size:13px;
+	}
+	.owl-nav > button {
+		width: 40px;
+		height: 40px;
+	}
+	.owl-nav > button:after {
+		width:12px;
+		height:12px;
+		left:17px;
+		top:13px;
+	}
+	.owl-nav > button.owl-next:after {
+		left:11px;
+	}
+	.contact-box h4 {
+		font-size:20px;
+	}
+	.contact-row {
+		padding: 10px 15px!important;
+		font-size:13px;
+		margin-bottom: 15px;
+	}
+	.facts-row > .row > div {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		width:100%;
+	}
+	#ajax-contact {
+		margin-top: 20px;
+	}
+	#ajax-contact input {
+		margin-bottom: 20px;
+	}
+	.contact-row i {
+		font-size: 25px;
+		width:45px;
+	}
+	.contact-row i.fa-envelope {
+		font-size: 20px;
+	}
+	.container-fluid {
+		padding:0 15px;
+		background: maroon;
+	}
+	.skills-ul {
+		top: 0;
+	}
+	.contact-row {
+		padding: 42px 45px;
+	}
+	#navigation button i {
+		color: #white;
+	}
+}
+
 @media only screen and (max-width: 767px) {
 	#header {
 		position: fixed;
@@ -201,7 +272,7 @@
 		background-color: rgba(250,250,250,0.9);
 	}
 	#navigation button i {
-		color: #1e1e1e;
+		color: #white;
 	}
 	.welcome-box {
 		padding: 150px 0px;
@@ -231,6 +302,7 @@
 	}
 	.navbar {
 		padding:15px 0;
+		background: maroon;
 	}
 	.navbar-toggle:focus {
 		outline:none;
@@ -414,15 +486,12 @@
 	}
 }
 @media only screen and (max-width: 460px) {
-	.skills-row h6 {
-	  text-align: left;
-	  margin-bottom: 30px;
-	  font-size: 14px;
+	h6{
+		font-size: 13;
 	}
-	
 	h4 {
-		font-size: 14px;
-		
+		font-size: 13px;
+
 	}
 	.testimonial-content:before {
 		left: 45%;
