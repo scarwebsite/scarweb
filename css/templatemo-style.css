@@ -827,10 +827,10 @@ textarea.form-control {
 }
 .skills-row h6 {
   font-size: 16px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 700;
   color: #fff;
-  text-align: right;
+  text-align: center;
   margin-bottom: -10px;
 }
 .skill-bar {
