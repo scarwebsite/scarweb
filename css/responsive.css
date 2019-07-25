@@ -460,6 +460,7 @@
 	.testimonials-section {
 		font-size:13px;
 	}
+	
 	.form-control {
 		height:52px;
 		font-size:14px;
@@ -521,6 +522,9 @@
 		padding:0 15px;
 		background: maroon;
 	}
+	.testimonial-content {
+		font-size:13px;
+	}
 }
 @media only screen and (max-width: 320px) {
 	.gallery-overlay p {
@@ -539,5 +543,8 @@
 	.container-fluid {
 		padding:0 15px;
 		background: maroon;
+	}
+	.testimonial-content {
+		font-size:13px;
 	}
 }
