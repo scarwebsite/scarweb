@@ -460,7 +460,9 @@
 	.testimonials-section {
 		font-size:13px;
 	}
-	
+	.services-list .item{
+		margin-left: 80px;
+	}
 	.form-control {
 		height:52px;
 		font-size:14px;
