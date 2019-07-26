@@ -501,6 +501,38 @@
 		padding-left: 0;
 	}
 }
+
+@media only screen and (max-width: 520px) {
+.skills-row h6{
+		font-size: 13px;
+		text-align: left;
+	}
+	h4 {
+		font-size: 12px;
+
+	}
+	.testimonial-content:before {
+		left: 45%;
+	}
+	.services-list .item{
+		margin-left: 25px;
+	}
+	#navigation button i {
+		color: #white;
+	}
+	.navbar {
+		padding:15px 0;
+		background: maroon;
+	}
+	.container-fluid {
+		padding:0 15px;
+		background: maroon;
+	}
+	.testimonial-content {
+		font-size:13px;
+	}
+}
+
 @media only screen and (max-width: 460px) {
 	.skills-row h6{
 		font-size: 13px;
@@ -514,7 +546,7 @@
 		left: 45%;
 	}
 	.services-list .item{
-		margin-left: 40px;
+		margin-left: 20px;
 	}
 	#navigation button i {
 		color: #white;
@@ -539,7 +571,7 @@
 		left: 43%;
 	}
 	.services-list .item{
-		margin-left: 30px;
+		margin-left: 15px;
 	}
 	#navigation button i {
 		color: #white;
